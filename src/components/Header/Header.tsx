@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="h-20 px-4 w-full relative bg-black">
+    <header className="h-20 px-4 w-full  bg-black sticky top-0 z-50">
       <div className="flex items-center justify-between h-full">
         {/* logo */}
         <div className="h-full flex items-center justify-center">
@@ -10,12 +10,13 @@ const Header = () => {
             <img src="/logo.png" alt="Logo" className="" width={100} />
           </Link>
         </div>
+        {/* links */}
         <nav className="flex items-center gap-6">
           <ul className="flex items-center gap-4">
             <li>
               <Link
                 to="/about"
-                className="capitalize text-white text-opacity-80"
+                className="capitalize text-white-78"
               >
                 Residencies
               </Link>
@@ -23,7 +24,7 @@ const Header = () => {
             <li>
               <Link
                 to="/value"
-                className="capitalize text-white text-opacity-80"
+                className="capitalize text-white-78"
               >
                 Our Value
               </Link>
@@ -31,7 +32,7 @@ const Header = () => {
             <li>
               <Link
                 to="/contact"
-                className="capitalize text-white text-opacity-80"
+                className="capitalize text-white-78"
               >
                 Contact Us
               </Link>
@@ -39,7 +40,7 @@ const Header = () => {
             <li>
               <Link
                 to="/start"
-                className="capitalize text-white text-opacity-80"
+                className="capitalize text-white-78"
               >
                 Get Started
               </Link>

@@ -1,9 +1,12 @@
-import { Header } from "@components";
+import { Header, Hero } from "@components";
 
 const App = () => {
   return (
     <div className="">
-      <Header />
+      <div className="bg-black">
+        <Header />
+        <Hero />
+      </div>
     </div>
   );
 };

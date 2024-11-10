@@ -14,6 +14,10 @@ export default {
         "blue-gradient":
           "linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%)",
       },
+      colors: {
+        "white-78": "rgba(255, 255, 255, 0.78)",
+        'custom-orange': '#ffa500',
+      },
     },
   },
   plugins: [],
