@@ -9,7 +9,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "blue-gradient":
+          "linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%)",
+      },
+    },
   },
   plugins: [],
 };
